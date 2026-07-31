@@ -6,6 +6,7 @@ e2=estudiante("Jose")
 u.crear_curso("matematicas")
 u.crear_curso("lenguaje")
 u.crear_curso("biologia")
+u.crear_curso2()
 for c in u.cursos:
     print(c.get_nombre_curso())
 u.matricular(e1,"lenguaje")

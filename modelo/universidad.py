@@ -6,6 +6,10 @@ class universidad:
     def crear_curso(self,nombre):
         curso_nuevo=curso(nombre)
         self.cursos.append(curso_nuevo)
+    def crear_curso2(self):
+         name=input("diga el nombre del curso")
+         curso_nuevo=curso(name)
+         self.cursos.append(curso_nuevo)
     def matricular(self,estudiante,curso):
         for c in self.cursos:
                 if c.get_nombre_curso()==curso:
